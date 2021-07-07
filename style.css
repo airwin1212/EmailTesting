@@ -156,3 +156,13 @@ body {
     width: 100%;
   }
 }
+
+.visual {
+  background-color: rgb(198, 79, 245);
+  border: rgb(198, 79, 245) solid;
+}
+
+.short {
+  background-color: blue;
+}
+
