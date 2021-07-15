@@ -24,6 +24,16 @@ body {
   text-align: center;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-emphasis: none;
+  color: #ffffff;
+}
+
 .key {
   display: block;
   margin: 0 20px;
@@ -31,10 +41,27 @@ body {
 
 .container {
   background-color: #dfdfdf;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.smartsheet {
+  margin: 10px auto;
+  padding: 10px 25px;
+  background-color: #7c7c7c;
+  border: #696969 solid 2px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.2);
+}
+
+.smartsheet:hover {
+  background-color: #ff6b00;
+  border: #ff6b00;
+  cursor: pointer;
 }
 
 .row {
@@ -165,4 +192,3 @@ body {
 .short {
   background-color: blue;
 }
-
