@@ -9,25 +9,31 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Acoustic Test Results</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
     </style>
 </head>
 
 <body>
-
-    <h1>Email Tests</h1>
-    <div class="key">
-        <h3 class="sigOne"">Test won (statistically significantly)</h3>
-        <h3 class=" sigTwo">Test won (not statistically significant)</h3>
-        <h3 class="sigThree">Control won (not statistically significant)</h3>
-        <h3 class="sigFour">Control won (statistically significant)</h3>
-        <button class="smartsheet"><a href="https://app.smartsheet.com/sheets/hqvW7VWf4Xf9xJXcx8fcRXGf8cQHrQ4X5vXH63q1"
+    <div class="key sticky-top">
+        <h1>Email Tests</h1>
+        <div class="row header">
+            <div class="col-lg-3"><h3 class="sigOne"">Test won (statistically significantly)</h3></div>
+            <div class="col-lg-3"><h3 class=" sigTwo">Test won (not statistically significant)</h3></div>
+            <div class="col-lg-3"><h3 class="sigThree">Control won (not statistically significant)</h3></div>
+            <div class="col-lg-3"><h3 class="sigFour">Control won (statistically significant)</h3></div>
+        </div>
+        <button class="smartsheet"><a href="https://app.smartsheet.com/sheets/hqvW7VWf4Xf9xJXcx8fcRXGf8cQHrQ4X5vXh53q1"
                 target="_blank">Smartsheet (more detail)</a></button>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigThree" style="width: 16rem;">
-                    <!-- Trigger the Modal -->
                     <img class="card-img-top" id="MHGWarmUp"
                         src="https://content-us-9.content-cms.com/f6c82168-3c73-4c54-a84c-688d051314ec/dxdam/4d/4d8328f9-128c-4f85-be0d-ac637e706567/FY21%20MHG%20Warm%20Up.png"
                         alt="FY21 MHG Warm up" style="width:100%;max-width:300px">
@@ -37,20 +43,20 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">FY21 MHG Christmas Warm Up</h5>
-                        <h6>Winner: Control</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 MHG Christmas Warm Up</h4>
+                        <h5>Winner: Control</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 2.57%</h7><br />
-                        <h7>Control - 3.22%</h7><br />
+                        <h6>Test - 2.57%</h6><br />
+                        <h6>Control - 3.22%</h6><br />
                         <br />
-                        <p class="card-text"><em>Test a poster-like, shorter email. Control a longer, copy driven
+                        <p class="card-text"><em>Tested a poster-like, shorter email. Control a longer, copy driven
                                 email.</em></p>
                         <a href="#" class="btn btn-primary visual">Visual</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigOne" style="width: 16rem;">
                     <img class="card-img-top" id="MHGLaunch"
                         src="https://content-us-9.content-cms.com/f6c82168-3c73-4c54-a84c-688d051314ec/dxdam/d4/d4ad18a5-dd4e-4d6b-9bda-20e10717603a/FY21%20MHG%20Launch.png"
@@ -61,14 +67,14 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">FY21 MHG Christmas Launch</h5>
-                        <h6>Winner: Test</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 MHG Christmas Launch</h4>
+                        <h5>Winner: Test</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 3.94%</h7><br />
-                        <h7>Control - 2.44%</h7><br />
-                        <h7>Resend Test - 2.41%</h7><br />
-                        <h7>Resend Control - 1.79%</h7><br />
+                        <h6>Test - 3.94%</h6><br />
+                        <h6>Control - 2.44%</h6><br />
+                        <h6>Resend Test - 2.41%</h6><br />
+                        <h6>Resend Control - 1.79%</h6><br />
                         <br />
                         <p class="card-text"><em>Test involved visual steps. Control was copy driven, commonly used in
                                 previous years.</em>
@@ -77,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigThree" style="width: 16rem;">
                     <img class="card-img-top" id="MHGRem1"
                         src="https://content-us-9.content-cms.com/f6c82168-3c73-4c54-a84c-688d051314ec/dxdam/bb/bbc9f7c6-bf9e-421a-8ed8-bff1aa570e52/FY21%20MHG%20Reminder%201.png"
@@ -88,14 +94,14 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">FY21 MHG Christmas Reminder 1</h5>
-                        <h6>Winner: Control</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 MHG Christmas Reminder 1</h4>
+                        <h5>Winner: Control</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 2.11%</h7><br />
-                        <h7>Control - 2.98%</h7><br />
-                        <h7>Resend Test - 1.19%</h7><br />
-                        <h7>Resend Control - 1.51%</h7><br />
+                        <h6>Test - 2.11%</h6><br />
+                        <h6>Control - 2.98%</h6><br />
+                        <h6>Resend Test - 1.19%</h6><br />
+                        <h6>Resend Control - 1.51%</h6><br />
                         <br />
                         <p class="card-text"><em>Similar looking emails but test had less copy.</em>
                         </p>
@@ -103,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigThree" style="width: 16rem;">
                     <img class="card-img-top" id="MHGRem2"
                         src="https://wvuk.sharepoint.com/sites/Acoustic/Shared%20Documents/Images/Test%20Visuals/FY21%20MHG%20Reminder%202.png?Web=1"
@@ -114,14 +120,14 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">FY21 MHG Christmas Reminder 2</h5>
-                        <h6>Winner: Control</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 MHG Christmas Reminder 2</h4>
+                        <h5>Winner: Control</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 1.19%</h7><br />
-                        <h7>Control - 1.51%</h7><br />
-                        <h7>Resend Test - 0.953%</h7><br />
-                        <h7>Resend Control - 1.13%</h7><br />
+                        <h6>Test - 1.19%</h6><br />
+                        <h6>Control - 1.51%</h6><br />
+                        <h6>Resend Test - 0.953%</h6><br />
+                        <h6>Resend Control - 1.13%</h6><br />
                         <br />
                         <p class="card-text"><em>Countdown timer on test.</em>
                         </p>
@@ -131,7 +137,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigTwo" style="width: 16rem;">
                     <img class="card-img-top" id="MHGRem3"
                         src="https://wvuk.sharepoint.com/sites/Acoustic/Shared%20Documents/Images/Test%20Visuals/FY21%20MHG%20Launch.png?Web=1"
@@ -142,21 +148,21 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">FY21 MHG Christmas Reminder 3</h5>
-                        <h6>Winner: Test</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 MHG Christmas Reminder 3</h4>
+                        <h5>Winner: Test</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 1.7%</h7><br />
-                        <h7>Control - 1.45%</h7><br />
+                        <h6>Test - 1.7%</h6><br />
+                        <h6>Control - 1.45%</h6><br />
                         <br />
-                        <p class="card-text"><em>Test a poster-like, shorter email. Control a longer, copy driven
+                        <p class="card-text"><em>Tested a poster-like, shorter email. Control a longer, copy driven
                                 email.</em>
                         </p>
                         <a href="#" class="btn btn-primary visual">Visual</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3">
                 <div class="card cardStyle sigTwo" style="width: 16rem;">
                     <img class="card-img-top" id="ImpactMail"
                         src="https://wvuk.sharepoint.com/sites/Acoustic/Shared%20Documents/Images/Test%20Visuals/FY21%20Impact%20Mailing.png?Web=1"
@@ -167,14 +173,14 @@
                         <div id="caption"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Impact Mailing</h5>
-                        <h6>Winner: Test</h6>
-                        <h7>Unique click rate</h7>
+                        <h4 class="card-title">FY21 Impact Mailing</h4>
+                        <h5>Winner: Test</h5>
+                        <h6>Unique click rate</h6>
                         <br />
-                        <h7>Test - 5.45%</h7><br />
-                        <h7>Control - 5.13%</h7><br />
-                        <h7>Test - 2.83%</h7><br />
-                        <h7>Control - 2.07%</h7><br />
+                        <h6>Test - 5.45%</h6><br />
+                        <h6>Control - 5.13%</h6><br />
+                        <h6>Test - 2.83%</h6><br />
+                        <h6>Control - 2.07%</h6><br />
                         <br />
                         <p class="card-text"><em>Test email with header image, minimal copy and button. Control copy
                                 heavy.</em>
@@ -182,13 +188,63 @@
                         <a href="#" class="btn btn-primary short">Short/Long</a>
                     </div>
                 </div>
+            </div>    
+            <div class="col-lg-3">
+                    <div class="card cardStyle sigTwo" style="width: 16rem;">
+                        <img class="card-img-top" id="ImpactMail"
+                            src="https://wvuk.sharepoint.com/sites/Acoustic/Shared%20Documents/Images/Test%20Visuals/FY21%20Impact%20Mailing.png?Web=1"
+                            alt="FY21 MHG Launch" style="width:100%;max-width:300px">
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">FY21 The Seed C1</h4>
+                            <h5>Winner: Test</h5>
+                            <h6>Unique click rate</h6>
+                            <br />
+                            <h6>Test - ##%</h6><br />
+                            <h6>Control - ##%</h6><br />
+                            <h6>Test - ##%</h6><br />
+                            <h6>Control - ##%</h6><br />
+                            <br />
+                            <p class="card-text"><em>Test email with header image, minimal copy and button. Control copy
+                                    heavy.</em>
+                            </p>
+                            <a href="#" class="btn btn-primary short">Short/Long</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                        <div class="card cardStyle sigTwo" style="width: 16rem;">
+                            <img class="card-img-top" id="ImpactMail"
+                                src="https://wvuk.sharepoint.com/sites/Acoustic/Shared%20Documents/Images/Test%20Visuals/FY21%20Impact%20Mailing.png?Web=1"
+                                alt="FY21 MHG Launch" style="width:100%;max-width:300px">
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">FY21 Impact Mailing</h4>
+                                <h5>Winner: Test</h5>
+                                <h6>Unique click rate</h6>
+                                <br />
+                                <h6>Test - 5.45%</h6><br />
+                                <h6>Control - 5.13%</h6><br />
+                                <h6>Test - 2.83%</h6><br />
+                                <h6>Control - 2.07%</h6><br />
+                                <br />
+                                <p class="card-text"><em>Test email with header image, minimal copy and button. Control copy
+                                        heavy.</em>
+                                </p>
+                                <a href="#" class="btn btn-primary short">Short/Long</a>
+                            </div>
+                        </div>
+                </div>    
             </div>
-            <div class="col">
-
-            </div>
-            <div class="col">
-
-            </div>
+            
         </div>
     </div>
     <script src="app.js"></script>
