@@ -104,6 +104,11 @@ a:hover {
   margin: 20px;
 }
 
+.scale:hover {
+  padding: 10px;
+  transition: all 400ms ease-in-out;
+}
+
 .sigOne {
   background-color: #f8bc90;
   border-radius: 10px;
