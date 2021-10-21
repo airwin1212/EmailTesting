@@ -252,3 +252,13 @@ a:hover {
 .short {
   background-color: blue;
 }
+
+.hardsoft {
+  background-color: burlywood;
+  border: burlywood;
+}
+
+.storyask {
+  background-color: #797979;
+  border: #797979;
+}
